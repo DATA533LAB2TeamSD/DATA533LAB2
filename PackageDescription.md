@@ -48,21 +48,20 @@ Module saved as ***sub.py***. The module contains :
 Module saved as ***tran.py***. The module contains :          
 - The method `tran` imports random module. It creates a sample of random numbers of the length of text and 
   it looks for the character present in the message indexed at that random number in the message and assigns it to a new string. 
-  So the output is a encrypted message. Since the numbers are random we can not decrypt it as the random number generator 
-  generates different numbers every instance.
+  So the output is a encrypted message. Since the numbers are random we can only decrypt it by setting a seed for the number generator.
   
  #### encrysimple
  `mirror`       
  This module is saved as ***mirror.py***. The module contains :
- - Class `Mirror` : The class has two mwthods.
+ - Class `Mirror` : The class has two methods.
     - `__init__` method initializes the text that needs to be mirrored.
-    - `text_revmirror` method revereses the text to generate the encrypted method.
+    - `text_revmirror` method reverses the text to generate the encrypted text.
   
   `mirrorsquared`       
   This module is saved as ***mirrorsquared.py***. The module contains :
-  - Class `MirrorSquared` : The class has two methods. 
+  - Class `MirrorSquared` : The class has two methods:
     - `__init__` method initializes the text message to be encrypted.
-    - `text_revsquared` method revereses the the message fisrst word by word and then letter by letter and generates the output.
+    - `text_revsquared` method revereses the the message first word by word and then letter by letter and generates the output.
     
   ## IMPORTED MODULES :
   -  random
