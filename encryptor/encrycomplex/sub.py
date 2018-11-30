@@ -1,3 +1,9 @@
+
+"""The module encrypts a message using one key that is entered as an interger and it shifts the message letter by letter 
+according to the key. This kind of encryption is called Substitution Encryption.
+- The module also decrypts the message given that we know the key value of the encryption."""
+
+
 import random
 class Suben:
     def __init__(self,text,key):

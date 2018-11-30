@@ -1,3 +1,5 @@
+"""The module reverses the message from end to start word by word. It is a method of simple encryption. """
+
 class Mirror:
     def __init__(self,text):
         self.text = text

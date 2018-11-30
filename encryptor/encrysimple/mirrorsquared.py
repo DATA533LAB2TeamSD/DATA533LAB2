@@ -1,3 +1,6 @@
+"""The module reverses the message from end to start word by word and also letter by letter. It is also a method of 
+simple encryption."""
+
 class MirrorSquared:
     def __init__(self,text):
         self.text = text
