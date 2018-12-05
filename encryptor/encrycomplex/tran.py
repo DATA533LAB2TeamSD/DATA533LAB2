@@ -2,6 +2,7 @@
 is called Transposition Encryption."""
 
 import random
+random.seed(1001)
 def tran(a):
     e = ''
     i = random.sample(range(len(a)),len(a))
