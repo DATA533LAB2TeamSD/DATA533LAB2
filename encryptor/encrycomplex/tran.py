@@ -2,8 +2,8 @@
 is called Transposition Encryption."""
 
 import random
-random.seed(1001)
 def tran(a):
+    random.seed(1001)
     e = ''
     i = random.sample(range(len(a)),len(a))
     for index in i:
